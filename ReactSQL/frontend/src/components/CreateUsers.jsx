@@ -23,7 +23,7 @@ const CreateUsers = ({ onUserAdded }) => {
 
             if (response.ok) {
                 onUserAdded(); // Update user list dynamically
-                setName("");
+                setName(""); // Clear the form
                 setAge("");
                 setSex("");
             } else {
